@@ -16,7 +16,7 @@ const HomePage: NextPageWithLayout<IHomePageProps> = (props) => {
 
 HomePage.getLayout = function getLayout(page:JSX.Element){
   return(
-    <MainLayout title="Listado de Pokemon">
+    <MainLayout title="App Next.js">
       {page}
     </MainLayout>
   )

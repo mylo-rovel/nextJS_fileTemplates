@@ -2,7 +2,6 @@ import Head from "next/head";
 import { FC, PropsWithChildren } from "react";
 
 import { IMainLayoutProps } from "../../../models";
-import { Navbar } from "components/singles";
 
 const defaultTitle = "my tutilo";
 
@@ -15,8 +14,7 @@ export const MainLayout:FC<PropsWithChildren<IMainLayoutProps>> = ({children, ti
             <meta name="description" content={`Pagina auxiliar de registro de trabajos`} />
         </Head>
         
-        <Navbar/>
-
+        {/* here we would put a navbar for example. or any other component */}
         <main>
             {children}
         </main>

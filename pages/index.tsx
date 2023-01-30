@@ -2,7 +2,7 @@ import { GetStaticProps } from 'next';
 
 import { IHomePageProps } from "../models";
 import { NextPageWithLayout } from "./_app";
-import { MainLayout } from '../components/layouts';
+import { MainLayout } from 'components/layouts';
 
 const HomePage: NextPageWithLayout<IHomePageProps> = (props) => {
   return (
